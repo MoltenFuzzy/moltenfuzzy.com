@@ -1,0 +1,12 @@
+body {
+  background-color: #212930;
+}
+
+.home,
+.experience,
+.projects,
+.aboutme {
+  font-size: 5rem;
+  /*css reset*/
+  margin: 0;
+}
