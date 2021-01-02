@@ -1,12 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* Defaults */
 body {
-  background-color: #212930;
+    background-color: #212930;
+    font-family: "Open Sans", sans-serif;
+    color: white;
 }
 
 .home,
 .experience,
 .projects,
 .aboutme {
-  font-size: 5rem;
-  /*css reset*/
-  margin: 0;
+    /* font-size: 5rem; */
+    /*css reset*/
+    margin: 0;
 }
