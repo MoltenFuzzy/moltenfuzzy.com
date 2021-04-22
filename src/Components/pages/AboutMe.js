@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import "./AboutMe.css";
 
 class AboutMe extends Component {
     render() {
         return (
             <>
-                <h1 className="aboutme">About Me</h1>
-                <p>
+                <h1 className="aboutme-header">About Me</h1>
+                <p className="aboutme-text">
                     Hi, my name is Kent! I am a Computer Science major currently
                     attending The University of California - Riverside. Aiming
                     to leverage a proven knowledge of Data Structures and

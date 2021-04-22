@@ -5,7 +5,7 @@ class Experience extends Component {
     render() {
         return (
             <>
-                <h1 className="experience">Experience</h1>
+                <h1 className="experience-page">Experience</h1>
                 <p>Literally None.</p>
             </>
         );

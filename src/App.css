@@ -6,12 +6,3 @@ body {
     font-family: "Open Sans", sans-serif;
     color: white;
 }
-
-.home,
-.experience,
-.projects,
-.aboutme {
-    /* font-size: 5rem; */
-    /*css reset*/
-    margin: 0;
-}
