@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+### Looking for an awesome theme for your startup checkout this new circle theme for free - **[click here](https://github.com/chetanverma16/circle-theme)**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# A clean, beautiful, minimal and responsive portfolio template for Developers!
 
-## Available Scripts
+![Web 1920 – 1](https://user-images.githubusercontent.com/16558205/101065060-b44bfc80-35ba-11eb-8ab4-1e6f140c1ec9.png)
 
-In the project directory, you can run:
+To view a live example, **[click here](https://react-portfolio-template.netlify.app/)**.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Just change `src/yourdata.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/chetanverma16/react-portfolio-template/issues).
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/chetanverma16/react-portfolio-template/pulls).
 
-### `npm run build`
+## Features
+- Responsive
+- Modern Design
+- Clean Animations
+- Easy to use
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Sections
+✔️ Header
+✔️ Work
+✔️ About
+✔️ Skills
+✔️ Contact
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## How To Use 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+From your command line, clone and run react-portfolio-template:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Clone this repository
+$ git clone https://github.com/chetanverma16/react-portfolio-template
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Go into the repository
+$ cd react-portfolio-template
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Install dependencies
+$ yarn
 
-## Learn More
+#Start's development server
+$ gatsby develop
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Personalize page content in `/src/yourdata.js` & modify it as per your need.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```javascript
+/* Change this file to get your Personal Porfolio */
+ // Edit Values of these variables
 
-### Code Splitting
+name:"chetan",
+headerTagline: [
+    "Building digital",.... 
+]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
 
-### Analyzing the Bundle Size
+## Deployment
+When you are done with the setup, you should host your website online.
+We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### Deploying to Netlify
 
-### Making a Progressive Web App
+You could also host directly with Netlify by linking your own repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chetanverma16/react-portfolio-template)
 
-### Advanced Configuration
+For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [React](https://reactjs.org/)
+- [Gatsby](https://www.gatsbyjs.com/)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## For the Future
+If you have awesome ideas on your mind,
+please don't hesitate to open a [pull request](https://github.com/chetanverma16/react-portfolio-template/pulls).
+
+## Thanks
+If you like this portfolio template don't forget give it a ⭐ and also share it with me [here](mailto:hello@chetanverma.com).
+
