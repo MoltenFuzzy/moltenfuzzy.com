@@ -189,7 +189,7 @@ export default {
   social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/moltenfuzzy" },
-    { img: linkedinIcon, url: "https://linkedin.com/kentphan2000" },
+    { img: linkedinIcon, url: "https://linkedin.com/in/kentphan2000" },
   ],
 
   // End Contact Section ---------------
