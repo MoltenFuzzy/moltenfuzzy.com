@@ -21,10 +21,8 @@ export default {
 
   //   Header Details ---------------------
   name: "Kent",
-  headerTagline: [
-    //Line 1 For Header
+  headerTagline:
     "“In order to be irreplaceable, one must always be different” – Coco Chanel",
-  ],
   //   Header Paragraph
   headerParagraph: "",
 
