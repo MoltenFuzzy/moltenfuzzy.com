@@ -20,7 +20,7 @@ const Resume = () => {
   }
 
   return (
-    <div className="section">
+    <div className="section" id="resume">
       <div className="container">
         <div className="resume-container">
           <h1>Resume</h1>
