@@ -1,8 +1,10 @@
 import React, { useState } from "react"
-import { Document, Page } from "react-pdf/dist/esm/entry.webpack"
+import { Document, Page, pdfjs } from "react-pdf/dist/esm/entry.webpack"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 import resumePDF from "../pdfs/resume.pdf"
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`
 
 const Resume = () => {
   function removeTextLayerOffset() {
@@ -23,7 +25,7 @@ const Resume = () => {
         <div className="resume-container">
           <h1>Resume</h1>
           <Document file={resumePDF}>
-            <Page height="1000" pageNumber={1} onLoadSuccess={removeTextLayerOffset} onLoadError={console.error} />
+            <Page height="1500" pageNumber={1} onLoadSuccess={removeTextLayerOffset} onLoadError={console.error} />
           </Document>
         </div>
       </div>
