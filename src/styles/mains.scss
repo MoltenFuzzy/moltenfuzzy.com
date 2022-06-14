@@ -12,15 +12,14 @@
 @import "./about.scss";
 @import "./skills.scss";
 @import "./promotion.scss";
+@import "./resume.scss";
 @import "./footer.scss";
 
-* {
+
+body {
   font-family: "Montserrat";
   color: #ebebeb;
   background-color: #171c21;
-}
-
-body {
   margin: 0;
   padding: 0;
   overflow-y: scroll;

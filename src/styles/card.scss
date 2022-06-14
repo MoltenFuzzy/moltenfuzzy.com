@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-position: center;
 
+
   .content {
     font-family: "Open Sans";
     text-align: center;
@@ -16,6 +17,8 @@
     opacity: 0;
     transition: all 500ms ease-in-out;
     transform: translate(0, 20px);
+    color: #ebebeb;
+    background-color: #171c21;
     cursor: pointer;
     h1 {
       font-size: 18px;

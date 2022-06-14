@@ -21,8 +21,7 @@ export default {
 
   //   Header Details ---------------------
   name: "Kent",
-  headerTagline:
-    "“In order to be irreplaceable, one must always be different” – Coco Chanel",
+  headerTagline: "If you don't give up, you'll get through.",
   //   Header Paragraph
   headerParagraph: "",
 
@@ -33,6 +32,16 @@ export default {
 
   // Work Section ------------------------
   projects: [
+    {
+      title: "ApeJobs", //Project Title - Add Your Project Title Here
+      para:
+        "ApeJobs is a job application platform for UCR students and professors. Professors can list jobs relating to their courses or interests, such as research, TA, and grader positions.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://user-images.githubusercontent.com/46156230/172455978-ceceafbc-49da-412a-b2f5-752f96023427.png",
+      //Project URL - Add Your Project Url Here
+      url: "https://github.com/UCR-CS110/final-project-scottyjobs",
+    },
     {
       title: "Covid Dashboard", //Project Title - Add Your Project Title Here
       para:
@@ -45,22 +54,13 @@ export default {
     },
     {
       title: "InfestationZ", //Project Title - Add Your Project Title Here
-      para: "A top down zombie shooter built from scratch with C++ and SFML", // Add Your Service Type Here
+      para:
+        "A top down zombie shooter built from scratch with C++ and SFML. Using A* pathfinding, zombies can locate the player based off their current node. ", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://user-images.githubusercontent.com/46156230/103430666-42e07900-4b7b-11eb-83c7-c7e75f40710b.png",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/Moltenfuzzy/InfestationZ",
-    },
-    {
-      title: "RHealth", //Project Title - Add Your Project Title Here
-      para:
-        "A console based application written in C++ that uses user data to create health plans using 3rd party APIs", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://user-images.githubusercontent.com/72319072/101962934-37c0ab80-3bc2-11eb-948b-0ce94d6c1f84.png",
-      //Project URL - Add Your Project Url Here
-      url: "https://github.com/Moltenfuzzy/RHealth",
     },
     {
       title: "Attack the Towers", //Project Title - Add Your Project Title Here
@@ -84,7 +84,7 @@ export default {
     {
       title: "Graphing Calculator", //Project Title - Add Your Project Title Here
       para:
-        "A graphing calculator with various expression parsing algorithms for input using SFML for visualizations.", // Add Your Service Type Here
+        "A graphing calculator application built upon various expression parsing algorithms and written in C++ using SFML.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc: "https://i.imgur.com/hJZS2Sy.png",
       //Project URL - Add Your Project Url Here
@@ -105,12 +105,13 @@ export default {
 
   // About Secton --------------
   aboutParaOne: [
-    "Hi, my name is Kent! I am a Computer Science major currently attending The University of California - Riverside. ",
+    "Hi, my name is Kent! I am a Computer Science graduate from The University of California, Riverside. ",
     "When I am not building my next million dollar app idea, I love to play video games. ",
-    "Some of my favorites are Valorant and Pokemon! If you noticed, this picture is with some of my favorite pro valorant players!",
+    "Some of my favorites are Valorant and Pokemon! If you noticed, this picture is with some of my favorite pro valorant players! ",
+    "I am currently in search for a job. Please check out resume and connect with me if you are interested! ",
   ],
   aboutParaTwo: [
-    "Relevant Coursework: Intermediate Data Structures & Algorithms, Compilers, Operating Systems, Software Engineering, Natural Language Processing, Data Analysis, Computer Architecture, Design Patterns",
+    "Relevant Coursework: Intermediate Data Structures & Algorithms, Compilers, Operating Systems, Software Engineering, Natural Language Processing, Data Analysis, Computer Architecture, Design Patterns, Web Development, Game Development",
   ],
   aboutImage:
     "https://media.discordapp.net/attachments/662359000272207929/928748783943155712/IMG_8230.jpg?width=352&height=469",
