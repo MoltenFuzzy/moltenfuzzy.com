@@ -23,7 +23,7 @@ const Resume = () => {
         <div className="resume-container">
           <h1>Resume</h1>
           <Document file={resumePDF}>
-            <Page height="1000" pageNumber={1} onLoadSuccess={removeTextLayerOffset} />
+            <Page height="1000" pageNumber={1} onLoadSuccess={removeTextLayerOffset} onLoadError={console.error} />
           </Document>
         </div>
       </div>
